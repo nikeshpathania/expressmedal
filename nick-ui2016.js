@@ -15,7 +15,6 @@ var product_code = getProductCode();
 var protocol = (window.location.protocol); // Get Http
 var host_name = (window.location.hostname); // Get Host name i.e. workondesk.in
 
-var TestingGit
 
 
 	
