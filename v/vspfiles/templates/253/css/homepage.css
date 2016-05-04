@@ -1,0 +1,119 @@
+/* CONVERTS ALL IMAGES IN ARTICLE 2 (HOMEPAGE) TO BE RESPONSIVE */
+#div_articleid_2 img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+#div_articleid_2 img[src$="/FeaturedProducts.gif"],
+#div_articleid_2 img[src$="/clear1x1.gif"],
+#div_articleid_2 .v65-productDisplay img {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  width: auto;
+  height: auto;
+  min-width: 25px;
+}
+
+#div_articleid_2 img[src="/clearfix1x1.gif"] {
+   display: inline;
+   width: auto;
+   height: auto;
+}
+
+/* HOMEPAGE FEATURED PRODUCTS */
+.v65-productDisplay .productnamecolor.colors_productname, a.productnamecolor.colors_productname {
+  color: #333;
+  font: 600 12px 'Source Sans Pro', Arial, Sans-Serif;
+  text-transform: uppercase;
+  line-height: 1.5em;
+}
+.v65-productDisplay .productnamecolor.colors_productname:hover, a.productnamecolor.colors_productname:hover {
+  color: #e9616e;
+  text-decoration: none;
+}
+table.v65-productDisplay font.text.colors_text, table.v65-productDisplay font.text.colors_text b {
+  color: #333;
+  font: 400 12px 'Source Sans Pro', Arial, Sans-Serif !important;
+}
+
+/* FEATURED PRODUCTS */
+#content_area .v65-productDisplay img[src$="nophoto.gif"],
+#content_area .v65-productDisplay img[src*="/v/vspfiles/photos/"] {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: 0 !important;
+}
+
+/* Product Title */
+table.v65-productDisplay .productnamecolor {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/* List Price */
+table.v65-productDisplay .product_listprice,
+table.v65-productDisplay .product_listprice b {
+font-size: 12px;
+font-weight: normal;
+}
+
+/* Our Price */
+table.v65-productDisplay .product_productprice,
+table.v65-productDisplay .product_productprice b {
+font-size: 12px;
+font-weight: normal;
+}
+
+/* Sale Price */
+table.v65-productDisplay .product_saleprice,
+table.v65-productDisplay .product_saleprice b {
+font-size: 12px;
+font-weight: normal;
+color: #e74f5d;
+}
+
+/* Deal Price */
+table.v65-productDisplay .product_dealprice {
+font-size: 12px;  
+font-weight: normal;
+color: #e74f5d;
+}
+
+@media (max-width:480px){
+  /* Product Title */
+  table.v65-productDisplay .productnamecolor {
+      font-size: 12px;
+  }
+
+  /* List Price */
+  table.v65-productDisplay .product_listprice,
+  table.v65-productDisplay .product_listprice b {
+    font-size: 12px;  
+  }
+
+  /* Our Price */
+  table.v65-productDisplay .product_productprice,
+  table.v65-productDisplay .product_productprice b {
+    font-size: 12px;
+  }
+
+  /* Sale Price */
+  table.v65-productDisplay .product_saleprice,
+  table.v65-productDisplay .product_saleprice b {
+    font-size: 12px;
+  }
+
+  /* Deal Price */
+  table.v65-productDisplay .product_dealprice {
+    font-size: 12px;  
+  }
+}

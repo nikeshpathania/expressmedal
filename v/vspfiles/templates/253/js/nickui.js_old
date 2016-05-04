@@ -1,0 +1,80 @@
+// Fxing Small Device product page Layout 
+$(document).ready(function(e) {
+  
+	var w= $(window).width();
+	//alert(w);
+	if(w>=300 && w<=768){
+		$('table#options_table').parent().addClass('xsmall');
+		$('#doogmaPlugin').parent().addClass('xsmall_img');
+			//alert("HTML: " + $("#options_table").html());
+		$('select, input[type="text"]').parent().addClass('leftTd');
+		//$('table#options_table tr').find('td:gt(1)').addClass('newleftTd');​
+		//manageTable();
+		//alert(1);
+
+	}
+	else{
+		$('table#options_table').parent().removeClass('xsmall');
+		$('#doogmaPlugin').parent().removeClass('xsmall_img');
+		$('select, input[type="text"]').parent().removeClass('leftTd');
+		}
+$(window).resize(function(){
+
+	var w= $(window).width();
+	//alert(w);
+	if(w>=300 && w<=768){
+			$('table#options_table').parent().addClass('xsmall');
+			$('#doogmaPlugin').parent().addClass('xsmall_img');
+			$('select, input[type="text"]').parent().addClass('leftTd');
+			//$('table#options_table tr').find('td:gt(1)').addClass('newleftTd');​
+			//alert(w);
+			
+			
+			
+		}
+		else{
+		$('table#options_table').parent().removeClass('xsmall');
+		$('#doogmaPlugin').parent().removeClass('xsmall_img');
+		$('select, input[type="text"]').parent().removeClass('leftTd');
+		}
+	});	
+});
+	if(location.pathname.indexOf("/ProductDetails.asp") != -1 || location.pathname.indexOf("-p") != -1 || location.pathname.indexOf("product-p") != -1)
+	{
+
+//if (location.pathname == "/2_1_2_Epoxy_Resin_Basketball_Medal1_p/CEM-303TESTC.htm" || location.pathname == "/2_1_2_Epoxy_Resin_Basketball_Medal1_p/CEM-303TESTC.htm" ){
+	
+			/*$('#options_table').parent().before($('<td></td>').append($('#pro_image')));
+			$('table#v65-product-parent table:eq(0)').attr({'id':'image_area'});
+			$('#image_area table:eq(0)').attr({'id':'social_media'});
+			$('.vCSS_img_quantity_discounts').parent('a').addClass('discount_btn');*/
+//			$('#v65-product-wishlist-button').insertBefore('td.qty_btn');
+			$('table.colors_pricebox:eq(0)').attr({'id':'colors_pricebox-2'});
+			$('#colors_pricebox_1 table:eq(1)').attr({'id':'price_control'});
+			$('table.colors_pricebox:eq(1)').attr({'id':'colors_pricebox-1'});
+			$('#colors_pricebox-2').parent().prev().addClass('Product_Img');
+			//$('.Product_Img').next($('<div></div>').append($('#doogmaPlugin')));
+			//$('.Product_Img').find('table').next($('<td></td>').append($('#doogmaPlugin')));
+			$('.Product_Img').append($('#doogmaPlugin'));
+			//$('#colors_pricebox-2').parent().before($('<div class="doogma_plugin_dv"></div>').append($('#doogmaPlugin')));
+			$('#colors_pricebox-1').after().append('<div class="qTable">Nikesh</div>');
+			$('#colors_pricebox-2').clone().appendTo('.qTable');
+					
+			jQuery("span[itemprop=description]").css("display","none");
+			$('#price_control').parent().addClass('price_section');
+			$('#price_control').parent().addClass('price_section');
+			$('#price_control').insertAfter('.vCSS_input_addtocart');
+			$('#price_control i').insertAfter('.productnamecolorLARGE');
+			$('.quant').parent('td').addClass('quantitytd');
+			$('span:contains("Qty")').addClass('quant');
+			$('.v65-productdetail-cartqty').parent().addClass('qty_btn');
+			$('.vCSS_input_addtocart').parent().addClass('cart_section');
+			$('#v65-product-wishlist-button').insertAfter('.vCSS_input_addtocart');
+			$('.discount_btn').insertAfter('.vCSS_input_addtocart');
+			$('#options_table').find('img').parent('td').addClass('options_text');
+ 			$('.colors_descriptionbox').parent().closest("table").attr("id","description_area");
+			$('table#social_media').insertAfter('#doogmaPlugin');
+			$('.vCSS_img_email_a_friend').parent('a').addClass('friend_email');
+			$('.friend_email').insertBefore('#v65-share-buttons-container');
+}
+

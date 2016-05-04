@@ -1,0 +1,60 @@
+#image_area {
+	display:none;}
+.v65-productdetail-cartqty {
+	margin-left:78px !important;}
+#colors_pricebox_2 {
+	top:-27px !important;
+	margin-top:0px !important;
+	position:relative !important;}
+#product_options_heading {
+	display:none;}
+#colors_pricebox_1 {
+	display:none;}
+#doogmaPlugin {
+	width:500px !important;}
+#price_control {
+	width:175px;
+	margin-top:35px;
+	margin-left:100px;
+}
+#price_control i {
+	display:none;}
+.cart_section {
+	position:relative;}
+#v65-product-wishlist-button {
+	position:absolute;
+	left:105px;
+	top:100px;}
+.discount_btn {
+	position:absolute;
+	left:90px;
+	top:75px;}
+.qty_btn {
+	font-weight:bold;
+	font-size:14px;
+	margin-left:45px}
+.options_text {
+	width:25%;
+	text-align:left;}
+#description_area {
+	margin-top:-147px;}
+#social_media {
+	position:absolute;
+	left:16px;
+	bottom:88px;
+	width:350px;}
+.friend_email {
+	float:left;}
+#v65-share-buttons-container {
+	float:right;}
+.vCSS_img_icon_free_shipping {
+	margin-top:25px;
+	margin-left:20px;}
+.vCSS_input_addtocart {
+	margin-top:75px;}
+.vCSS_breadcrumb_td i {
+	float:right;
+	margin-right:170px;}
+#pro_image {
+	width:500px !important;
+	height:500px !important;}

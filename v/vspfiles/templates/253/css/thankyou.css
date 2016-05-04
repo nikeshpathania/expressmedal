@@ -1,0 +1,16 @@
+@media only screen and (max-width: 767px) {
+	#content_area table[width="450"] {
+		width: 100% !important;
+	}
+
+	#content_area table[width="450"] img[height="100"] {
+		width: 100% !important;
+		height: auto !important;
+		min-width: 73px;
+	}
+
+	#content_area table[width="450"] tbody > tr {
+		display: block !important;
+		margin-bottom: 15px;
+	}
+}

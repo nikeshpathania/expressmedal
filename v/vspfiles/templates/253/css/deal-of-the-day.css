@@ -1,0 +1,128 @@
+/* ========= Deal of the Day ========== */
+/* DEAL DIVIDER COLORS */
+.deal,
+.deal-headline,
+.deal-saving-stock-details {
+  border-color: #eeeeee; }
+
+#content_area .deal {
+  max-width: none;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+#content_area .deal-image {
+  float: none;
+  margin: 0 auto; }
+
+#content_area .deal-details {
+  margin-right: 0;
+  padding-left: 0; }
+
+#content_area .deal-main-heading {
+  height: auto !important; }
+
+/* DEAL HEADINGS */
+#content_area .deal-main-heading,
+#content_area .deal-extra-heading {
+  background-image: none !important; }
+
+#content_area .deal-main-heading:before,
+#content_area .deal-extra-heading:before {
+  content: '';
+  display: block;
+  padding: 20px 0 20px 25px;
+  text-transform: uppercase;
+  color: #eeeeee;
+  font-weight: bold;
+  background: #555555;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  font-size: 19px; }
+
+#content_area .deal-main-heading:before {
+  content: 'Deal of the Day'; }
+
+#content_area .deal-extra-heading:before {
+  content: 'More Deals of the Day'; }
+
+#content_area .deal-extra-heading {
+  height: 60px !important;
+  margin: 0; }
+
+/* DEAL HEADLINE */
+#content_area .deal-headline {
+  font-size: 24px;
+  color: #333333;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/* DEAL PRODUCT NAME */
+#content_area .deal-product-name a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #da4545;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+#content_area .deal-price {
+  margin-left: 0; }
+
+/* ARROWS and PRICE COLOR  */
+#content_area .deal-pricing {
+  color: #eeeeee;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 78px;
+  margin: 0;
+  background-image: none !important;
+  background-color: #555555;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0; }
+
+/* BUY-NOW and SOLD-OUT BUTTON  */
+#content_area .deal-buy-now,
+#content_area .deal-buy-now.sold-out {
+  margin: 17px 20px 0 0;
+  background: none;
+  height: auto;
+  width: auto; }
+
+#content_area .deal-buy-now a {
+  vertical-align: middle;
+  cursor: pointer;
+  white-space: nowrap;
+  height: 43px;
+  line-height: 43px;
+  padding: 0 16px;
+  font-size: 18px; }
+
+/* DEAL EXPIRATION  */
+#content_area .deal-end {
+  color: #d9534f;
+  font-size: 14px;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/* DEAL PRICE, SAVINGS and STOCK CAPTIONS TEXT */
+#content_area .deal-regular-price-caption,
+#content_area .deal-savings-caption,
+#content_area .deal-stock-caption {
+  color: black; }
+
+#content_area .deal-buy-now a {
+  text-transform: uppercase; }
+  .btn.btn-primary, #content_area .deal-buy-now a {
+    background-image: -moz-linear-gradient(#ec6a77, #de3945);
+    background-image: -webkit-linear-gradient(#ec6a77, #de3945);
+    background-image: linear-gradient(#ec6a77, #de3945); }
+    .btn.btn-primary:hover, #content_area .deal-buy-now a:hover {
+      background: #da4545; }
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #content_area .deal-image {
+    float: right; }
+
+  #content_area .deal-details {
+    margin-right: 280px; }
+
+  #content_area .deal-price {
+    margin-left: 12px; } }
+
